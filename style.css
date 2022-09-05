@@ -14,6 +14,8 @@ body
 }
 .navbar
 {
+    position: sticky;
+    top: 0px;
     display: flex;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.7);
@@ -164,4 +166,176 @@ body
 {
     padding: 0.5em 0.5em;
     width: 40px;
+}
+
+@media (max-width: 900px)
+{
+    .navbar
+    {
+        height: 40px;
+    }
+    .logo-img{
+        height: 40px;
+    }
+    .menu li a
+    {
+        font-size: 1em;
+        padding: 0.6em 1em;
+    }
+    .sections
+    {
+        margin-top: 4em;
+        border: 10px solid skyblue;
+        border-radius: 40px;
+    }
+    .intro-items{
+        font-size: 2em;
+    }
+    .section-title
+    {
+        margin-top: 0.3em;
+        font-size: 2em;
+
+    }
+    #about-content
+    {
+        font-size: 1em;
+        padding: 0.5em 1em;
+    }
+    .skill{
+        width: 20vw;
+        padding: 1em 1em;
+    }
+    .skill-name
+    {
+        font-size: 1em;
+    }
+
+    .skill-bar
+    {
+        border-radius: 2px;
+        height: 12px;
+    }
+
+    .skill-per
+    {
+        border-radius: 2px;
+        height: 12px;
+    }
+    .project
+    {
+        margin: 0.4em 0.5em;
+        padding: 0.4em;
+    }
+    .about-project
+    {
+        
+        font-size: 1em;
+        padding: 0.8em 1em 0.8em 1em;
+    }
+    .repo-link-btn a
+    {
+        padding: 0.4em;
+        font-size: 0.6em;
+        font-family: 'Kanit', sans-serif;
+        border-radius: 10px;
+    }
+    .logo-button img
+    {
+        padding: 0.3em 0.3em;
+        width: 20px;
+    }
+}
+
+@media (max-width: 480px)
+{
+    .navbar
+    {
+        border-radius: 1px;
+        height: 28px;
+    }
+    .logo-img{
+        border-radius: 1px;
+        height: 28px;
+    }
+
+    .menu li a
+    {
+        border-radius: 1px;
+        font-size: 0.6em;
+        padding: 0.7em 1em;
+    }
+    .menu li a:hover
+    {
+        border-radius: 1px;
+    }
+    .sections
+    {
+        margin-top: 2em;
+        border: 5px solid skyblue;
+        border-radius: 20px;
+    }
+    .intro-items{
+        font-size: 1em;
+    }
+    .section-title
+    {
+        margin-top: 0.3em;
+        font-size: 1em;
+
+    }
+    #about-content
+    {
+        font-size: 0.7em;
+        padding: 0.5em 1em;
+    }
+    .skill{
+        width: 20vw;
+        padding: 0.8em 0.8em;
+    }
+    .skill-name
+    {
+        font-size: 0.5em;
+    }
+
+    .skill-bar
+    {
+        border-radius: 2px;
+        height: 8px;
+    }
+
+    .skill-per
+    {
+        border-radius: 2px;
+        height: 8px;
+    }
+    .project
+    {
+        margin: 0.4em 0.5em;
+        padding: 0.4em;
+    }
+    .about-project
+    {
+        
+        font-size: 0.5em;
+        padding: 0.8em 1em 0.8em 1em;
+    }
+    .repo-link-btn a
+    {
+        padding: 0.4em;
+        font-size: 0.3em;
+        font-family: 'Kanit', sans-serif;
+        border-radius: 10px;
+    }
+    .logo-button img
+    {
+        padding: 0.3em 0.3em;
+        width: 20px;
+    }
+    #contact-section
+    {
+        margin-top: 1em;
+        border-radius: 5px;
+    }
+
 }
